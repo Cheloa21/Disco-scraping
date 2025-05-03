@@ -1,0 +1,23 @@
+{
+  "name": "cheerio_npm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "cheerio": "^1.0.0",
+    "file-fetch": "^2.0.1",
+    "node-fetch": "2",
+    "puppeteer": "^24.6.0",
+    "puppeteer-autoscroll-down": "^2.0.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
