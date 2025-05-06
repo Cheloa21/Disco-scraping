@@ -35,12 +35,27 @@ const content = 'Some content!\n\r sdsdasdassad asda';
 
 // ==========================================
 
-fs.stat('./db.json',(err,stats)=>{
-    console.log(stats.isDirectory());
-        // console.log(stats);
-        console.log(stats.size);
-        console.log(stats.blksize);
-})
+// fs.stat('./db.json',(err,stats)=>{
+//     console.log(stats.isDirectory());
+//         // console.log(stats);
+//         console.log(stats.size);
+//         console.log(stats.blksize);
+// })
+
+//=====
+fs.readFile
+
+
+// fs.readFile(`./db.json`, 'utf8', (error, datos) => {
+//     let leerB=[]
+// leerB=JSON.parse(datos)
+// for(let num in leerB){
+// console.log(`se lee ${num}:`, leerB[num]['productId'])
+// }
+// })
+
+const data = fs.readFileSync('./db.json', `utf8`);
+console.log(data);
 
 
 // import { stat } from 'node:fs';
